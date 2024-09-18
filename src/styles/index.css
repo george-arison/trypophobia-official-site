@@ -226,9 +226,12 @@ strong {
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
-  min-height: 350px;
-  gap: 80px;
-  padding: 50px 50px 10px 50px;
+  min-height: 100Vh;
+  gap: 40px;
+  padding: 20px 50px 10px 50px;
+} & .contato-conteudo img {
+  height: 200px;
+  width: 400px;
 }
 
 .contato-conteudo-1 {
@@ -240,11 +243,18 @@ strong {
 
 .redes-contato {
   display: flex;
-  align-items: baseline;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-around;
+  gap: 70px;
 }
 
 .icones-footer {
   display: flex;
   align-items: center;
   gap: 30px;
+} 
+
+.creditos-copyright p{
+  font-size: 0.8rem;
 }
