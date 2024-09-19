@@ -1,0 +1,128 @@
+@media (min-width: 280px) and (max-width: 480px) {
+  .header {
+    height: 300px;
+    align-items: center;
+  }
+
+  .header::after {
+    height: 302px;
+  }
+
+  .header img {
+    height: 300px;
+    width: 100%;
+  }
+
+  h1 {
+    font-size: 2rem;
+    letter-spacing: 0.4rem;
+  }
+
+  .line {
+    width: 175px;
+  }
+
+  p {
+    font-size: 0.9rem;
+  }
+
+  .sobre-a-banda {
+    align-items: center;
+  }
+
+  .sobre-a-banda img {
+    height: 250px;
+    width: 250px;
+  }
+
+  .sobre-conteudo {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .sobre-conteudo-1 {
+    flex-direction: column;
+  }
+
+  .nossa-musica-conteudo {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .streaming {
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+  }
+
+  .icones-streaming {
+    gap: 10px;
+  }
+
+  .video-conteudo {
+    align-items: center;
+    gap: 30px;
+  }
+
+  .video-conteudo iframe {
+    height: 250px;
+    width: 400px;
+  }
+
+  .galeria-conteudo {
+    align-items: center;
+  }
+
+  .splide {
+    width: 400px;
+  }
+
+  .slide-image {
+    width: 400px;
+    height: 250px;
+  }
+
+  .slide-image img {
+    height: 250px;
+  }
+
+  .contato-conteudo {
+    align-items: center;
+  }
+
+  .contato-conteudo-1 {
+    align-items: center;
+    padding: 10px 10px 10px 10px;
+  }
+
+  .redes-contato {
+    gap: 20px;
+  }
+
+  .icones-footer {
+    display: grid;
+    grid-template-columns: repeat(2, 3fr);
+    align-items: center;
+    justify-content: cen;
+  }
+
+  .icones-footer svg {
+    height: 30px;
+    width: 30px;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+}
+
+@media (min-width: 1200px) and (max-width: 1919px) {
+}
+
+@media (min-width: 1920px) {
+}
