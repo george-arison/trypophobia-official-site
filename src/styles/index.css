@@ -200,7 +200,7 @@ strong {
   min-height: 100vh;
   flex-direction: column;
   gap: 50px;
-  padding: 50px 50px 50px 50px;
+  padding: px 50px 50px 50px;
 }
 
 .galeria-conteudo-1 {
@@ -265,6 +265,7 @@ strong {
 
 .icones-footer {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   gap: 30px;
 }
