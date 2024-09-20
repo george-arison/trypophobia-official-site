@@ -196,15 +196,6 @@
     align-items: center;
   }
 
-  .streaming {
-    flex-direction: column;
-    gap: 10px;
-    align-items: center;
-  }
-
-  .icones-streaming {
-    gap: 10px;
-  }
 
   .video-conteudo {
     align-items: center;
@@ -320,19 +311,10 @@
     align-items: center;
   }
 
-  .streaming {
-    flex-direction: column;
-    gap: 10px;
-    align-items: center;
-  }
-
-  .icones-streaming {
-    gap: 10px;
-  }
-
   .video-conteudo {
     align-items: center;
     gap: 30px;
+    min-height: 450px;
   }
 
   .video-conteudo iframe {
@@ -342,6 +324,7 @@
 
   .galeria-conteudo {
     align-items: center;
+    min-height: 450px;
   }
 
   .splide {
