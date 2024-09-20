@@ -3,11 +3,17 @@
 :root {
   --gray-text: #d2cfcf;
   --background-1: #504f4fbc;
-  --highlight: #eae43aec;
+  --highlight: #86820dfe;
 }
 
 body {
   background-color: #000;
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+  gap: 80px 0;
 }
 
 .header {
@@ -151,13 +157,6 @@ strong {
   height: 350px;
 }
 
-.streaming {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  gap: 30px;
-}
 
 .icones-streaming {
   display: flex;
@@ -170,8 +169,8 @@ strong {
   min-height: 100vh;
   flex-direction: column;
   align-items: center;
-  gap: 50px;
-  padding: 10px 50px 50px 50px;
+  gap: 35px;
+  padding: 50px 50px 50px 50px;
 }
 
 .video-conteudo-1 {
@@ -200,7 +199,7 @@ strong {
   min-height: 100vh;
   flex-direction: column;
   gap: 50px;
-  padding: px 50px 50px 50px;
+  padding: 50px 50px 50px 50px;
 }
 
 .galeria-conteudo-1 {
@@ -237,11 +236,10 @@ strong {
 
 .contato-conteudo {
   display: flex;
-  flex-wrap: wrap;
   flex-direction: column;
   min-height: 100vh;
   gap: 40px;
-  padding: 20px 50px 10px 50px;
+  padding: 50px 50px 50px 50px;
 }
 & .contato-conteudo img {
   height: 200px;

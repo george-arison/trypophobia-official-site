@@ -83,8 +83,8 @@
 
   .video-conteudo {
     align-items: center;
-    gap: 30px;
-    min-height: 350px;
+    gap: 20px;
+    min-height: 500px;
   }
 
   .video-conteudo iframe {
@@ -94,7 +94,7 @@
 
   .galeria-conteudo {
     align-items: center;
-    min-height: 365px;
+    min-height: 500px;
   }
 
   .splide {
