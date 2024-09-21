@@ -7,6 +7,10 @@
   .header::after {
     height: 302px;
   }
+  .nav-buttons {
+    width: 100%;
+  }
+
   .nav-btn {
     font-size: 0.9rem;
     letter-spacing: 0.2rem;
@@ -144,6 +148,10 @@
     height: 302px;
   }
 
+  .nav-buttons {
+    width: 100%;
+  }
+
   .header img {
     height: 300px;
     width: 100%;
@@ -195,7 +203,6 @@
   .nossa-musica-conteudo-1 {
     align-items: center;
   }
-
 
   .video-conteudo {
     align-items: center;
