@@ -75,7 +75,7 @@ body {
 h1 {
   font-family: "Bebas Neue", sans-serif;
   letter-spacing: 1rem;
-  font-size: 5rem;
+  font-size: 3rem;
 }
 
 .line {
@@ -269,7 +269,6 @@ strong {
   align-items: center;
   gap: 30px;
 }
-
 
 .creditos-copyright p {
   font-size: 0.8rem;
