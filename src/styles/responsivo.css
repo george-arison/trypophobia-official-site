@@ -1,0 +1,585 @@
+@media (min-width: 280px) and (max-width: 480px) {
+  .header {
+    height: 300px;
+    align-items: center;
+  }
+
+  .header::after {
+    height: 302px;
+  }
+  .nav-buttons {
+    width: 100%;
+  }
+
+  .nav-btn {
+    font-size: 0.9rem;
+    letter-spacing: 0.2rem;
+  }
+
+  .header img {
+    height: 300px;
+    width: 100%;
+  }
+
+  h1 {
+    font-size: 2rem;
+    letter-spacing: 0.05rem;
+  }
+
+  .line {
+    width: 175px;
+  }
+
+  p {
+    font-size: 0.9rem;
+    width: 270px;
+  }
+
+  .sobre-a-banda {
+    align-items: center;
+  }
+
+  .sobre-a-banda img {
+    height: 250px;
+    width: 250px;
+  }
+
+  .sobre-conteudo {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .sobre-conteudo-1 {
+    flex-direction: column;
+  }
+
+  .nossa-musica {
+    align-items: center;
+  }
+
+  .nossa-musica-conteudo {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .nossa-musica-conteudo-1 {
+    align-items: center;
+  }
+
+  .spotify {
+    min-width: 250px;
+  }
+
+  .streaming {
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+  }
+
+  .icones-streaming {
+    gap: 10px;
+  }
+
+  .icones-streaming svg {
+    height: 30px;
+    width: 30px;
+  }
+
+  .video-conteudo {
+    align-items: center;
+    gap: 20px;
+    min-height: 500px;
+  }
+
+  .video-conteudo iframe {
+    height: 250px;
+    width: 360px;
+  }
+
+  .galeria-conteudo {
+    align-items: center;
+    min-height: 500px;
+  }
+
+  .splide {
+    width: 365px;
+  }
+
+  .slide-image {
+    width: 365px;
+    height: 250px;
+  }
+
+  .slide-image img {
+    height: 250px;
+  }
+
+  .contato-conteudo {
+    align-items: center;
+    height: 300px;
+  }
+  & .contato-conteudo img {
+    height: 100px;
+    width: 200px;
+  }
+
+  .contato-conteudo-1 {
+    align-items: center;
+    padding: 10px 10px 10px 10px;
+  }
+
+  .redes-contato {
+    gap: 20px;
+  }
+
+  .icones-footer svg {
+    height: 30px;
+    width: 30px;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+  .header {
+    height: 300px;
+    width: 100%;
+  }
+
+  .header::after {
+    height: 302px;
+  }
+
+  .nav-buttons {
+    width: 100%;
+  }
+
+  .header img {
+    height: 300px;
+    width: 100%;
+  }
+
+  h1 {
+    font-size: 2rem;
+    letter-spacing: 0.3rem;
+  }
+
+  .line {
+    width: 175px;
+  }
+
+  p {
+    font-size: 1rem;
+    width: 400px;
+  }
+
+  .sobre-a-banda {
+    align-items: center;
+  }
+
+  .sobre-a-banda img {
+    height: 250px;
+    width: 250px;
+  }
+
+  .sobre-conteudo {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .sobre-conteudo-1 {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .nossa-musica {
+    align-items: center;
+  }
+
+  .nossa-musica-conteudo {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .nossa-musica-conteudo-1 {
+    align-items: center;
+  }
+
+  .video-conteudo {
+    align-items: center;
+    gap: 30px;
+    min-height: 450px;
+  }
+
+  .video-conteudo iframe {
+    height: 325px;
+    width: 520px;
+  }
+
+  .galeria-conteudo {
+    align-items: center;
+    min-height: 450px;
+  }
+
+  .splide {
+    width: 520px;
+  }
+
+  .slide-image {
+    height: 350px;
+    width: 520px;
+  }
+
+  .slide-image img {
+    height: 350px;
+  }
+
+  .contato-conteudo {
+    align-items: center;
+  }
+
+  .contato-conteudo-1 {
+    align-items: center;
+    padding: 10px 10px 10px 10px;
+  }
+
+  .redes-contato {
+    gap: 20px;
+  }
+
+  .icones-footer {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .icones-footer svg {
+    height: 30px;
+    width: 30px;
+  }
+}
+
+@media (min-width: 767px) and (max-width: 991px) {
+  .header {
+    height: 350px;
+  }
+
+  .header::after {
+    height: 352px;
+  }
+
+  .header img {
+    height: 350px;
+    width: 100%;
+  }
+
+  h1 {
+    font-size: 2rem;
+    letter-spacing: 0.4rem;
+  }
+
+  .line {
+    width: 175px;
+  }
+
+  p {
+    font-size: 1rem;
+    width: 600px;
+  }
+
+  .sobre-a-banda {
+    align-items: center;
+  }
+
+  .sobre-a-banda img {
+    height: 250px;
+    width: 250px;
+  }
+
+  .sobre-conteudo {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .sobre-conteudo-1 {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .nossa-musica {
+    align-items: center;
+  }
+
+  .nossa-musica-conteudo {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .nossa-musica-conteudo-1 {
+    align-items: center;
+  }
+
+  .video-conteudo {
+    align-items: center;
+    gap: 30px;
+    min-height: 450px;
+  }
+
+  .video-conteudo iframe {
+    height: 325px;
+    width: 600px;
+  }
+
+  .galeria-conteudo {
+    align-items: center;
+    min-height: 450px;
+  }
+
+  .splide {
+    width: 600px;
+  }
+
+  .slide-image {
+    height: 350px;
+    width: 600px;
+  }
+
+  .slide-image img {
+    height: 350px;
+  }
+
+  .contato-conteudo {
+    align-items: center;
+  }
+
+  .contato-conteudo-1 {
+    align-items: center;
+    padding: 10px 10px 10px 10px;
+  }
+
+  .redes-contato {
+    gap: 20px;
+  }
+
+  .icones-footer {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .icones-footer svg {
+    height: 30px;
+    width: 30px;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+  .header {
+    height: 300px;
+    width: 100%;
+  }
+
+  .header::after {
+    height: 302px;
+  }
+
+  .nav-buttons {
+    width: 100%;
+  }
+
+  .header img {
+    height: 300px;
+    width: 100%;
+  }
+
+  h1 {
+    font-size: 2rem;
+    letter-spacing: 0.3rem;
+  }
+
+  .line {
+    width: 175px;
+  }
+
+  p {
+    font-size: 1rem;
+    width:px;
+  }
+
+  .sobre-a-banda {
+    align-items: center;
+  }
+
+  .sobre-a-banda img {
+    height: 250px;
+    width: 250px;
+  }
+
+  .sobre-conteudo {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .sobre-conteudo-1 {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .nossa-musica {
+    align-items: center;
+  }
+
+  .nossa-musica-conteudo {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .nossa-musica-conteudo-1 {
+    align-items: center;
+  }
+
+  .video-conteudo {
+    align-items: center;
+    gap: 30px;
+    min-height: 450px;
+  }
+
+  .video-conteudo iframe {
+    height: 325px;
+    width: 520px;
+  }
+
+  .galeria-conteudo {
+    align-items: center;
+    min-height: 450px;
+  }
+
+  .splide {
+    width: 520px;
+  }
+
+  .slide-image {
+    height: 350px;
+    width: 520px;
+  }
+
+  .slide-image img {
+    height: 350px;
+  }
+
+  .contato-conteudo {
+    align-items: center;
+  }
+
+  .contato-conteudo-1 {
+    align-items: center;
+    padding: 10px 10px 10px 10px;
+  }
+
+  .redes-contato {
+    gap: 20px;
+  }
+
+  .icones-footer {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .icones-footer svg {
+    height: 30px;
+    width: 30px;
+  }
+}
+
+@media (min-width: 1201px) and (max-width: 1919px) {
+  .header {
+    height: 100vh;
+    width: 100%;
+  }
+
+  .header::after {
+    height: 100vh;
+  }
+
+  .header img {
+    height: 100vh;
+    width: 100%;
+  }
+
+  h1 {
+    font-size: 2rem;
+    letter-spacing: 0.4rem;
+  }
+
+  .line {
+    width: 175px;
+  }
+
+  p {
+    font-size: 1rem;
+    width: 650px;
+  }
+
+  .sobre-a-banda {
+    align-items: center;
+  }
+
+  .sobre-a-banda img {
+    height: 450px;
+    width: 450px;
+  }
+
+  .sobre-conteudo {
+    align-items: center;
+  }
+
+  .sobre-conteudo-1 {
+    gap: 100px;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .nossa-musica {
+    align-items: center;
+  }
+
+  .nossa-musica-conteudo {
+    gap: 100px;
+    align-items: center;
+    justify-content: center;
+
+  }
+
+  .nossa-musica-conteudo-1 {
+    align-items: center;
+  }
+
+  .video-conteudo {
+    align-items: center;
+    gap: 30px;
+    min-height: 450px;
+  }
+
+  .galeria-conteudo {
+    align-items: center;
+    min-height: 450px;
+  }
+
+  .contato-conteudo {
+    align-items: center;
+  }
+
+  .contato-conteudo-1 {
+    align-items: center;
+    padding: 10px 10px 10px 10px;
+  }
+
+  .redes-contato {
+    gap: 20px;
+  }
+
+  .icones-footer {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+}

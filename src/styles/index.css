@@ -13,7 +13,7 @@ body {
 .container {
   display: flex;
   flex-direction: column;
-  gap: 160px;
+  gap: 80px;
 }
 
 .header {
@@ -89,7 +89,7 @@ p {
   font-family: "Plus Jakarta Sans", sans-serif;
   font-weight: 400;
   text-align: center;
-  line-height: 2rem;
+  line-height: 2.5rem;
   color: var(--gray-text);
   font-size: 1.125rem;
 }
@@ -102,7 +102,7 @@ strong {
   display: flex;
   flex-direction: column;
   gap: 30px;
-  padding: 50px 50px 50px 50px;
+  padding: 30px 30px 30px 30px;
   align-items: center;
   min-height: 100vh;
 }
@@ -133,7 +133,7 @@ strong {
   align-items: flex-start;
   justify-content: center;
   gap: 50px;
-  padding: 50px 50px 50px 50px;
+  padding: 30px 30px 30px 30px;
 }
 
 .nossa-musica-conteudo {
@@ -169,7 +169,7 @@ strong {
   flex-direction: column;
   align-items: center;
   gap: 35px;
-  padding: 50px 50px 50px 50px;
+  padding: 30px 30px 30px 30px;
 }
 
 .video-conteudo-1 {
@@ -190,6 +190,8 @@ strong {
 .video-conteudo iframe {
   border: 2px solid #504f4fbc;
   border-radius: 12px;
+  height: 400px;
+  width: 720px;
 }
 
 .galeria-conteudo {
@@ -198,7 +200,7 @@ strong {
   min-height: 100vh;
   flex-direction: column;
   gap: 50px;
-  padding: 50px 50px 50px 50px;
+  padding: 30px 30px 30px 30px;
 }
 
 .galeria-conteudo-1 {
@@ -217,6 +219,7 @@ strong {
 .splide {
   width: 720px;
   height: 100%;
+  display: flex;
 }
 
 .slide-image {
@@ -236,7 +239,7 @@ strong {
 .contato-conteudo {
   display: flex;
   flex-direction: column;
-  min-height: 100vh;
+  height: 100vh;
   gap: 40px;
   padding: 50px 50px 50px 50px;
 }
@@ -266,6 +269,7 @@ strong {
   align-items: center;
   gap: 30px;
 }
+
 
 .creditos-copyright p {
   font-size: 0.8rem;
