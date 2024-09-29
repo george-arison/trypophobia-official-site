@@ -466,7 +466,11 @@
   }
 }
 
-@media (min-width: 1201px) and (max-width: 1919px) {
+@media (min-width: 1201px) and (max-width: 1920px) {
+  .container {
+    gap: 150px;
+  }
+
   .header {
     height: 100vh;
     width: 100%;
@@ -491,7 +495,7 @@
   }
 
   p {
-    font-size: 1.125rem;
+    font-size: 1rem;
     width: 650px;
   }
 
@@ -500,8 +504,8 @@
   }
 
   .sobre-a-banda img {
-    height: 450px;
-    width: 450px;
+    height: 350px;
+    width: 350px;
   }
 
   .sobre-conteudo {
@@ -536,16 +540,22 @@
 
   .galeria-conteudo {
     align-items: center;
-    min-height: 450px;
+    height: 100vh;
   }
 
   .contato-conteudo {
     align-items: center;
+    justify-content: center;
+    padding: 20px 20px 20px 20px;
+  }
+
+  .contato-conteudo img {
+    height: 200px;
+    width: 400px;
   }
 
   .contato-conteudo-1 {
     align-items: center;
-    padding: 10px 10px 10px 10px;
   }
 
   .redes-contato {
@@ -555,5 +565,147 @@
   .icones-footer {
     flex-wrap: wrap;
     justify-content: center;
+  }
+}
+
+@media (min-width: 1921px) {
+  .container {
+    gap: 250px;
+  }
+
+  .header {
+    height: 100vh;
+    width: 100%;
+  }
+
+  .header::after {
+    height: 101vh;
+  }
+
+  .header img {
+    height: 100vh;
+    width: 100%;
+  }
+
+  .nav-btn {
+    font-size: 2rem;
+  }
+
+  h1 {
+    font-size: 6rem;
+    letter-spacing: 1rem;
+  }
+
+  p {
+    font-size: 2rem;
+    width: 900px;
+    line-height: 3rem;
+    letter-spacing: 0.1rem;
+  }
+
+  .sobre-a-banda {
+    align-items: center;
+    justify-content: center;
+    gap: 70px;
+  }
+
+  .sobre-a-banda img {
+    height: 550px;
+    width: 550px;
+  }
+
+  .sobre-conteudo {
+    align-items: center;
+  }
+
+  .sobre-conteudo-1 {
+    gap: 100px;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .nossa-musica {
+    align-items: center;
+    gap: 100px;
+  }
+
+  .nossa-musica-conteudo {
+    gap: 100px;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .nossa-musica-conteudo-1 {
+    align-items: center;
+  }
+
+  .spotify {
+    height: 800px;
+    width: 800px;
+  }
+
+  .video-conteudo {
+    align-items: center;
+    gap: 70px;
+    height: 100vh;
+  }
+
+  .video-conteudo iframe {
+    height: 700px;
+    width: 1440px;
+  }
+
+  .galeria-conteudo {
+    align-items: center;
+    gap: 70px;
+    height: 100vh;
+  }
+
+  .splide {
+    width: 1440px;
+    height: 100%;
+    display: flex;
+  }
+
+  .slide-image {
+    height: 800px;
+    display: flex;
+    align-items: center;
+  }
+
+  .slide-image img {
+    width: 1440px;
+    height: 800px;
+  }
+
+  .contato-conteudo {
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 20px 20px 20px;
+    gap: 70px;
+  }
+
+  .contato-conteudo img {
+    height: 400px;
+    width: 800px;
+  }
+
+  .contato-conteudo-1 {
+    align-items: center;
+    gap: 15px;
+  }
+
+  .redes-contato {
+    gap: 35px;
+  }
+
+  .icones-footer svg {
+    height: 70px;
+    width: 100px;
+  }
+
+  .creditos-copyright p {
+    font-size: 1.2rem;
   }
 }
