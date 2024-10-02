@@ -3,7 +3,7 @@
 :root {
   --gray-text: #d2cfcf;
   --background-1: #504f4fbc;
-  --highlight: #86820dfe;
+  --highlight: #f3e702fe;
 }
 
 body {
@@ -146,7 +146,7 @@ strong {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 40px;
+  gap: 30px;
 }
 
 .spotify {
@@ -158,10 +158,67 @@ strong {
   height: 350px;
 }
 
-.icones-streaming {
+.shows-conteudo {
   display: flex;
+  flex-direction: column;
+  min-height: 100vh;
   gap: 20px;
+  padding: 30px 30px 30px 30px;
+}
+
+.shows-conteudo-1 {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  align-items: flex-start;
+  padding-left: 100px;
+}
+
+.shows-conteudo-2 {
+  display: flex;
   align-items: center;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.show-informacoes {
+  display: flex;
+  border-bottom: 2px solid var(--gray-text);
+}
+
+.data-evento-ingressos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 25px;
+  padding-bottom: 25px;
+  padding-top: 18px;
+}
+
+.data-evento-ingressos img {
+  width: 200px;
+  height: 200px;
+  border: 2px solid var(--gray-text);
+  border-radius: 12px;
+}
+
+.data-evento-ingressos button {
+  font-family: "Bebas Neue", sans-serif;
+  letter-spacing: 0.3rem;
+  font-size: 1.125rem;
+  text-align: center;
+  justify-content: center;
+  height: 40px;
+  width: 150px;
+  background-color: transparent;
+  border: 3px solid var(--background-1);
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.4s;
+}
+
+.data-evento-ingressos button:hover {
+  background-color: var(--background-1);
 }
 
 .video-conteudo {
