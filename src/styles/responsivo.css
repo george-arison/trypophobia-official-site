@@ -17,7 +17,7 @@
   }
 
   .nav-btn {
-    font-size: 0.9rem;
+    font-size: 0.8rem;
     letter-spacing: 0.2rem;
   }
 
@@ -296,7 +296,7 @@
 
   .header img {
     height: 350px;
-    width: 10
+    width: 10;
   }
 
   .nav-buttons {
@@ -441,7 +441,6 @@
     width: 100%;
   }
 
-  
   .line {
     width: 175px;
   }
@@ -476,8 +475,6 @@
   .nossa-musica-conteudo-1 {
     align-items: center;
   }
-
-
 
   .video-conteudo {
     align-items: center;
@@ -711,7 +708,7 @@
     border: 2px solid var(--gray-text);
     border-radius: 12px;
   }
-  
+
   .data-evento-ingressos button {
     letter-spacing: 0.3rem;
     font-size: 2rem;
