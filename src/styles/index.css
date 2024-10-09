@@ -40,6 +40,21 @@ body {
   );
 }
 
+.mobile-menu {
+  cursor: pointer;
+  display: none;
+  position: fixed;
+  z-index: 1;
+}
+
+.mobile-menu div {
+  width: 32px;
+  height: 2px;
+  background: var(--gray-text);
+  margin: 8px;
+  transition: 0.3s;
+}
+
 .nav-buttons {
   display: flex;
   align-items: center;
